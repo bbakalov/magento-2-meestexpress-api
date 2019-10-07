@@ -1,26 +1,34 @@
 {
-    "name": "bdn/magento-2-meestexpress-api",
-    "description": "",
-    "require": {
-        "php": "~7.0.0"
-    },
-    "type": "magento2-module",
-    "version": "0.0.1",
-    "license": "proprietary",
-    "authors": [
-        {
-            "name": "Bohdan Bakalov",
-            "email": "bakalov.bogdan@gmail.com",
-            "homepage": "https://github.com/bbakalov/",
-            "role": "Developer"
-        }
-    ],
-    "autoload": {
-        "files": [
-            "registration.php"
-        ],
-        "psr-4": {
-            "Bdn\\MeestExpress\\": ""
-        }
+  "name": "bdn/magento-2-meestexpress-api",
+  "description": "Module for API communication with MeestExpress API v3.0",
+  "minimum-stability": "dev",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "magento2 meest",
+    "magento2 meestexpress",
+    "meest",
+    "meestexpress",
+    "meestexpress api"
+  ],
+  "authors": [
+    {
+      "name": "Bohdan Bakalov",
+      "email": "bakalov.bogdan@gmail.com",
+      "homepage": "https://github.com/bbakalov/",
+      "role": "Developer"
     }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Bdn\\MeestExpress\\": ""
+    }
+  }
 }
