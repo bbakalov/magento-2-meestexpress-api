@@ -2,12 +2,19 @@
     "name": "bdn/magento-2-meestexpress-api",
     "description": "",
     "require": {
-        "php": "~7.0.0",
-        "magento/magento-composer-installer": "*",
+        "php": "~7.0.0"
     },
     "type": "magento2-module",
     "version": "0.0.1",
     "license": "proprietary",
+    "authors": [
+        {
+            "name": "Bohdan Bakalov",
+            "email": "bakalov.bogdan@gmail.com",
+            "homepage": "https://github.com/bbakalov/",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "files": [
             "registration.php"
