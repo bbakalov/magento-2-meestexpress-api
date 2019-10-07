@@ -246,7 +246,7 @@ class Api implements ApiInterface
     public function payTerminalSearch(float $latitude, float $longitude): array
     {
         $this->apiConnector->sendRequest([
-            'method' => 'branchTypes',
+            'method' => 'payTerminalSearch',
             'data'   => [$latitude, $longitude],
         ], AbstractApiConnector::GET);
 
