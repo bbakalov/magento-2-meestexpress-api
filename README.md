@@ -38,3 +38,23 @@ Login into Magento Admin Panel
 
 #### Insert your MeestExpress credentials
 Go to `Admin Panel > Stores > Configuration > Services > MeestExpress`
+
+## 3. How to uninstall MeestExpress API
+
+## ✓ Installed MeestExpress API via composer
+Run the following command in Magento 2 root folder:
+
+```
+php bin/magento module:disable Bdn_MeestExpress
+php bin/magento cache:flush
+composer remove bdn/magento-2-meestexpress-api
+```
+
+### ✓ Installed ready-to-paste package approach
+
+- Delete folder: **app/code/Bdn/MeestExpress**
+- Run the following command in Magento 2 root folder:
+```
+php bin/magento module:disable Bdn_MeestExpress
+php bin/magento cache:flush
+```
