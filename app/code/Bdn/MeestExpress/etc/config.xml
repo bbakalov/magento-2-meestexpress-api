@@ -1,0 +1,9 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <bdn_meesteexpress>
+            <api>
+                <url>https://api.meest.com/v3.0/openAPI</url>
+            </api>
+        </bdn_meesteexpress>
+    </default>
+</config>
